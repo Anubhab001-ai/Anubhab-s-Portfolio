@@ -1,0 +1,186 @@
+// UI & Icons
+import logo from './logo.png'
+import logo_dark from './logo_dark.png'
+import header_bg_color from './header-bg-color.png'
+import moon_icon from './moon_icon.png'
+import sun_icon from './sun_icon.png'
+import arrow_icon from './arrow-icon.png'
+import arrow_icon_dark from './arrow-icon-dark.png'
+import right_arrow from './right-arrow.png'
+import right_arrow_white from './right-arrow-white.png'
+import right_arrow_bold from './right-arrow-bold.png'
+import right_arrow_bold_dark from './right-arrow-bold-dark.png'
+
+// Navigation & Menu Icons
+import menu_black from './menu-black.png'
+import menu_white from './menu-white.png'
+import close_black from './close-black.png'
+import close_white from './close-white.png'
+
+// Profile & Contact
+import profile_img from './profile-img.png'
+import hand_icon from './hand-icon.png'
+import mail_icon from './mail_icon.png'
+import mail_icon_dark from './mail_icon_dark.png'
+import download_icon from './download-icon.png'
+
+// Section Icons
+import code_icon from './code-icon.png'
+import code_icon_dark from './code-icon-dark.png'
+import edu_icon from './edu-icon.png'
+import edu_icon_dark from './edu-icon-dark.png'
+import project_icon from './project-icon.png'
+import project_icon_dark from './project-icon-dark.png'
+
+// Tools
+import vscode from './vscode.png'
+import firebase from './firebase.png'
+import figma from './figma.png'
+import git from './git.png'
+import mongodb from './mongodb.png'
+
+// Services
+import web_icon from './web-icon.png'
+import mobile_icon from './mobile-icon.png'
+import ui_icon from './ui-icon.png'
+import graphics_icon from './graphics-icon.png'
+
+// Misc
+import user_image from './user-image.png'
+import send_icon from './send-icon.png'
+
+import work_1 from './work-1.png';
+import work_2 from './work-2.png';
+import work_3 from './work-3.png';
+import work_4 from './work-4.png';
+
+// Export all assets
+export const assets = {
+  // UI
+  logo,
+  logo_dark,
+  header_bg_color,
+  moon_icon,
+  sun_icon,
+  arrow_icon,
+  arrow_icon_dark,
+  right_arrow,
+  right_arrow_white,
+  right_arrow_bold,
+  right_arrow_bold_dark,
+
+  // Navigation
+  menu_black,
+  menu_white,
+  close_black,
+  close_white,
+
+  // Profile & Contact
+  profile_img,
+  hand_icon,
+  mail_icon,
+  mail_icon_dark,
+  download_icon,
+
+  // Info Section Icons
+  code_icon,
+  code_icon_dark,
+  edu_icon,
+  edu_icon_dark,
+  project_icon,
+  project_icon_dark,
+
+  // Tools
+  vscode,
+  firebase,
+  figma,
+  git,
+  mongodb,
+
+  // Services
+  web_icon,
+  mobile_icon,
+  ui_icon,
+  graphics_icon,
+
+  // Misc
+  user_image,
+  send_icon,
+}
+
+// Work Data — images must be inside the `/public/` folder!
+export const workData = [
+  {
+    title: 'Frontend project',
+    description: 'Web Design',
+    bgImage: work_1,
+  },
+  {
+    title: 'Geo based app',
+    description: 'Mobile App',
+    bgImage: work_2,
+  },
+  {
+    title: 'Photography site',
+    description: 'Web Design',
+    bgImage: work_3,
+  },
+  {
+    title: 'FULL-STACK PROJECTS',
+    description: 'Real World Tasks',
+    bgImage: work_4,
+  },
+];
+
+// Service Data
+export const serviceData = [
+  {
+    icon: web_icon,
+    title: 'Web design',
+    description: 'Web development is the process of building, programming...',
+    link: '',
+  },
+  {
+    icon: mobile_icon,
+    title: 'Mobile app',
+    description: 'Mobile app development involves creating software for mobile devices...',
+    link: '',
+  },
+  {
+    icon: ui_icon,
+    title: 'UI/UX design',
+    description: 'UI/UX design focuses on creating a seamless user experience...',
+    link: '',
+  },
+  {
+    icon: graphics_icon,
+    title: 'Graphics design',
+    description: 'Creative design solutions to enhance visual communication...',
+    link: '',
+  },
+]
+
+// Info Section Data
+export const infoList = [
+  {
+    icon: code_icon,
+    iconDark: code_icon_dark,
+    title: 'Languages',
+    description: 'HTML, CSS, JavaScript, React Js, Next Js',
+  },
+  {
+    icon: edu_icon,
+    iconDark: edu_icon_dark,
+    title: 'Education',
+    description: 'B.Tech in Computer Science',
+  },
+  {
+    icon: project_icon,
+    iconDark: project_icon_dark,
+    title: 'Projects',
+    description: 'Built more than 5 projects',
+  },
+]
+
+// Tools Icons
+export const toolsData = [vscode, firebase, mongodb, figma, git]
